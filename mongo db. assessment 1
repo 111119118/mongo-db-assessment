@@ -462,6 +462,7 @@ db.users.find()
 { _id: ObjectId("628c80e46387fffdf47d5276"),
   username: 'ScumbagSteve',
   full_name: [ 'first:Scumbag', 'last:steve' ] }
+  post collection
 db.posts.insertMany([{username:"GoodGuyGreg",title:"Passes out at party",body:"Wakes up early and cleans house"},{username:"GoodGuyGreg",title:"Reports a bug in your code",body:"Sends you a pull request"},{username:"ScumbagSteve",title:"Borrows something",body:"Sells it"},{username:"ScumbagSteve",title"Borrows everything",body:"The end"},{username:"ScumbagSteve",title:"Forks your repo on Github",body:"Sets to private"}])
 Error: clone(t={}){const r=t.loc||{};return e({loc:new Position("line"in r?r.line:this.loc.line,"column"in r?r.column:...<omitted>...)} could not be cloned.
 db.posts.insertMany([{username:"GoodGuyGreg",title:"Passes out at party",body:"Wakes up early and cleans house"},{username:"GoodGuyGreg",title:"Reports a bug in your code",body:"Sends you a pull request"},{username:"ScumbagSteve",title:"Borrows something",body:"Sells it"},{username:"ScumbagSteve",title"Borrows everything",body:"The end"},{username:"ScumbagSteve",title:"Forks your repo on Github",body:"Sets to private"}])
@@ -533,9 +534,6 @@ title: "Forks your repo on github",
 body: "Sets to private"
 }
 ]);
-
-
-db.po[12:46] Potnuru, Tejaswi
 db.posts.insertMany([
 {
 username: "GoodGuyGreg",
@@ -667,9 +665,6 @@ title: "Forks your repo on github",
 body: "Sets to private"
 }
 ])
-
-
-db.po[12:46] Potnuru, Tejaswi
 db.posts.insertMany([
 {
 username: "GoodGuyGreg",
