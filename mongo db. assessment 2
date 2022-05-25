@@ -1,3 +1,11 @@
+show databases
+mongopractice    3.20 MiB
+restuarants      2.40 MiB
+admin          332.00 KiB
+local            3.87 GiB
+use population
+'switched to db population'
+
 db.zipcodes.find({city:"ATLANTA",state:"GA"})
 db.zipcodes.aggregate([{$match:{$and:[{city:"ATLANTA"},{state:"GA"}]}}])
 
